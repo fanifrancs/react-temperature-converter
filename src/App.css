@@ -2,7 +2,6 @@
 
 body{
   display: flex;
-  justify-content: center;
   font-family: 'Bellota', cursive;
 }
 
@@ -12,4 +11,27 @@ body{
 
 p{
   font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+input{
+  border: none;
+  outline: none;
+}
+
+fieldset{
+  border-radius: 25px;
+  border: 2px solid tomato;
+}
+
+.not-boil{
+  color: tomato;
+}
+
+.boil{
+  color: seagreen;
+}
+
+legend{
+  color: gray;
 }
